@@ -10,7 +10,7 @@ sleep 1s
 # We use the /home/pi/drivers dir we copied locally during install to avoid a git pull collision on an
 # actively in-use driver
 
-python /home/pi/firmware/kiosk/kiosk.py &
+# python /home/pi/firmware/kiosk/kiosk.py &
 
 sudo bash /home/pi/firmware/bin/system/io/input_driver.sh &
 sleep 1s
